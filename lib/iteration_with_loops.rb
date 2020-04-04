@@ -11,9 +11,9 @@ def find_min_in_nested_arrays(src)
       if src[o_c][d_c] < d_min 
         d_min = src[o_c][d_c]
       end
-    lows << d_min 
     d_c += 1 
     end
+    lows << d_min 
   o_c += 1 
   end 
   lows
